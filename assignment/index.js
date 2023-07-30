@@ -40,3 +40,15 @@ console.log(sum/grades.length)
 Feel free to put any value.
 2. Use the for-in loop to display both the properties and values of the object.
 */
+
+const vehicle = {
+    name: "Renegade",
+    brand: "Jeep",
+    year: 5,
+    numberOfWheels: 4,
+    isEnvironmentFriendly: false
+}
+
+for(const property in vehicle){
+    console.log(property + " : " + vehicle[property]);
+}
