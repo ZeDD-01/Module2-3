@@ -7,6 +7,29 @@
     Tip: you can create another variable as a placeholder for the sum first.
 */
 
+//1
+let grades = [56, 87, 99, 40];
+console.log(grades);
+
+//2
+grades.push(68);
+console.log(grades);
+
+//3
+grades.shift();
+console.log(grades);
+
+//4
+ grades[2] = 60
+console.log(grades)
+
+let sum = 0;
+grades.map((g)=>{
+    sum = sum + g;
+})
+
+console.log(sum/grades.length)
+
 /*Q2:
 1. Create an object called vehicle with following properties:
     a. name (String)
